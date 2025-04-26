@@ -1,0 +1,134 @@
+{
+  "best_global_step": 1000,
+  "best_metric": 2.8214972019195557,
+  "best_model_checkpoint": "/DATA/Shubham/Projects/Kashmiri_language_Translation/lora-output2/checkpoint-1000",
+  "epoch": 4.610404624277456,
+  "eval_steps": 1000,
+  "global_step": 1000,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.4624277456647399,
+      "grad_norm": 0.16051432490348816,
+      "learning_rate": 2.4750000000000004e-06,
+      "loss": 2.9935,
+      "num_input_tokens_seen": 51840,
+      "step": 100
+    },
+    {
+      "epoch": 0.9248554913294798,
+      "grad_norm": 0.19505444169044495,
+      "learning_rate": 4.975000000000001e-06,
+      "loss": 3.0358,
+      "num_input_tokens_seen": 103520,
+      "step": 200
+    },
+    {
+      "epoch": 1.3838150289017341,
+      "grad_norm": 0.1441805511713028,
+      "learning_rate": 7.4750000000000004e-06,
+      "loss": 3.0309,
+      "num_input_tokens_seen": 155232,
+      "step": 300
+    },
+    {
+      "epoch": 1.846242774566474,
+      "grad_norm": 0.16672451794147491,
+      "learning_rate": 9.975e-06,
+      "loss": 2.9321,
+      "num_input_tokens_seen": 207008,
+      "step": 400
+    },
+    {
+      "epoch": 2.305202312138728,
+      "grad_norm": 0.188086599111557,
+      "learning_rate": 1.2475e-05,
+      "loss": 2.9449,
+      "num_input_tokens_seen": 258432,
+      "step": 500
+    },
+    {
+      "epoch": 2.7676300578034683,
+      "grad_norm": 0.18859902024269104,
+      "learning_rate": 1.4975e-05,
+      "loss": 2.9002,
+      "num_input_tokens_seen": 310208,
+      "step": 600
+    },
+    {
+      "epoch": 3.2265895953757227,
+      "grad_norm": 0.3285188674926758,
+      "learning_rate": 1.7475e-05,
+      "loss": 2.8401,
+      "num_input_tokens_seen": 361216,
+      "step": 700
+    },
+    {
+      "epoch": 3.6890173410404623,
+      "grad_norm": 0.2655142843723297,
+      "learning_rate": 1.9975e-05,
+      "loss": 2.8499,
+      "num_input_tokens_seen": 413120,
+      "step": 800
+    },
+    {
+      "epoch": 4.147976878612717,
+      "grad_norm": 0.24693189561367035,
+      "learning_rate": 2.2475e-05,
+      "loss": 2.8259,
+      "num_input_tokens_seen": 464512,
+      "step": 900
+    },
+    {
+      "epoch": 4.610404624277456,
+      "grad_norm": 0.3072441518306732,
+      "learning_rate": 2.4975e-05,
+      "loss": 2.803,
+      "num_input_tokens_seen": 516160,
+      "step": 1000
+    },
+    {
+      "epoch": 4.610404624277456,
+      "eval_BLEU": 8.837568694307102,
+      "eval_chrF": 36.633764353002164,
+      "eval_loss": 2.8214972019195557,
+      "eval_runtime": 143.2724,
+      "eval_samples_per_second": 6.896,
+      "eval_steps_per_second": 1.724,
+      "num_input_tokens_seen": 516160,
+      "step": 1000
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 10000,
+  "num_input_tokens_seen": 516160,
+  "num_train_epochs": 47,
+  "save_steps": 1000,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 5,
+        "early_stopping_threshold": 0.001
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 2974223263334400.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
