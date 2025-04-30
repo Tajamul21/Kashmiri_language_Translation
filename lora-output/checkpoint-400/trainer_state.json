@@ -1,0 +1,71 @@
+{
+  "best_metric": 4.517472267150879,
+  "best_model_checkpoint": "/DATA/Shubham/Projects/Kashmiri_language_Translation/lora-output/checkpoint-400",
+  "epoch": 5.904059040590406,
+  "eval_steps": 200,
+  "global_step": 400,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.48,
+      "learning_rate": 0.0003,
+      "loss": 5.3071,
+      "num_input_tokens_seen": 104432,
+      "step": 100
+    },
+    {
+      "epoch": 2.95,
+      "learning_rate": 0.00021213203435596422,
+      "loss": 4.6992,
+      "num_input_tokens_seen": 208736,
+      "step": 200
+    },
+    {
+      "epoch": 2.95,
+      "eval_BLEU": 0.10253623090169298,
+      "eval_chrF": 6.797558454026081,
+      "eval_loss": 4.6081132888793945,
+      "eval_runtime": 218.4846,
+      "eval_samples_per_second": 2.842,
+      "eval_steps_per_second": 0.179,
+      "num_input_tokens_seen": 208736,
+      "step": 200
+    },
+    {
+      "epoch": 4.43,
+      "learning_rate": 0.00017320508075688773,
+      "loss": 4.4693,
+      "num_input_tokens_seen": 313408,
+      "step": 300
+    },
+    {
+      "epoch": 5.9,
+      "learning_rate": 0.00015018785229652763,
+      "loss": 4.3073,
+      "num_input_tokens_seen": 417584,
+      "step": 400
+    },
+    {
+      "epoch": 5.9,
+      "eval_BLEU": 0.08216420500679002,
+      "eval_chrF": 8.050629768976778,
+      "eval_loss": 4.517472267150879,
+      "eval_runtime": 223.5766,
+      "eval_samples_per_second": 2.778,
+      "eval_steps_per_second": 0.174,
+      "num_input_tokens_seen": 417584,
+      "step": 400
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 2000,
+  "num_input_tokens_seen": 417584,
+  "num_train_epochs": 30,
+  "save_steps": 200,
+  "total_flos": 2415074307342336.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

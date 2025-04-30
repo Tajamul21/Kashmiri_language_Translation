@@ -10,6 +10,11 @@ def split_dataset(excel_path, output_dir):
     assert 'English_Sentence' in df.columns, "English column missing"
     assert 'Kashmiri_Translation' in df.columns, "Kashmiri column missing"
     
+    # Check if the dataset is empty
+    if df.empty:
+        print("Dataset is empty. Exiting...")
+        return
+
     # Create output directory structure
     os.makedirs(os.path.join(output_dir, "train", "en-ks"), exist_ok=True)
     os.makedirs(os.path.join(output_dir, "dev", "en-ks"), exist_ok=True)
@@ -24,6 +29,9 @@ def split_dataset(excel_path, output_dir):
         src_path = os.path.join(output_dir, split_name, "en-ks", f"{split_name}.en")
         tgt_path = os.path.join(output_dir, split_name, "en-ks", f"{split_name}.ks")
         
+        # Ensure we are saving the correct number of sentences
+        print(f"Saving {split_name} split: {len(data)} sentences")
+        
         data['English_Sentence'].to_csv(src_path, index=False, header=False)
         data['Kashmiri_Translation'].to_csv(tgt_path, index=False, header=False)
 
@@ -33,6 +41,6 @@ def split_dataset(excel_path, output_dir):
 
 if __name__ == "__main__":
     split_dataset(
-        excel_path="Final_English_Kashmiri_Corpora.xlsx",
+        excel_path="English_Kashmiri_Final_Dataset.xlsx",
         output_dir="dataset_splits"
     )
