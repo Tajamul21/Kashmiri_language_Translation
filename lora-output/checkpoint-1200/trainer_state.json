@@ -1,0 +1,171 @@
+{
+  "best_metric": 4.517472267150879,
+  "best_model_checkpoint": "/DATA/Shubham/Projects/Kashmiri_language_Translation/lora-output/checkpoint-400",
+  "epoch": 17.71217712177122,
+  "eval_steps": 200,
+  "global_step": 1200,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.48,
+      "learning_rate": 0.0003,
+      "loss": 5.3071,
+      "num_input_tokens_seen": 104432,
+      "step": 100
+    },
+    {
+      "epoch": 2.95,
+      "learning_rate": 0.00021213203435596422,
+      "loss": 4.6992,
+      "num_input_tokens_seen": 208736,
+      "step": 200
+    },
+    {
+      "epoch": 2.95,
+      "eval_BLEU": 0.10253623090169298,
+      "eval_chrF": 6.797558454026081,
+      "eval_loss": 4.6081132888793945,
+      "eval_runtime": 218.4846,
+      "eval_samples_per_second": 2.842,
+      "eval_steps_per_second": 0.179,
+      "num_input_tokens_seen": 208736,
+      "step": 200
+    },
+    {
+      "epoch": 4.43,
+      "learning_rate": 0.00017320508075688773,
+      "loss": 4.4693,
+      "num_input_tokens_seen": 313408,
+      "step": 300
+    },
+    {
+      "epoch": 5.9,
+      "learning_rate": 0.00015018785229652763,
+      "loss": 4.3073,
+      "num_input_tokens_seen": 417584,
+      "step": 400
+    },
+    {
+      "epoch": 5.9,
+      "eval_BLEU": 0.08216420500679002,
+      "eval_chrF": 8.050629768976778,
+      "eval_loss": 4.517472267150879,
+      "eval_runtime": 223.5766,
+      "eval_samples_per_second": 2.778,
+      "eval_steps_per_second": 0.174,
+      "num_input_tokens_seen": 417584,
+      "step": 400
+    },
+    {
+      "epoch": 7.38,
+      "learning_rate": 0.00013456839120487698,
+      "loss": 4.1838,
+      "num_input_tokens_seen": 522000,
+      "step": 500
+    },
+    {
+      "epoch": 8.86,
+      "learning_rate": 0.0001227818263605087,
+      "loss": 4.0755,
+      "num_input_tokens_seen": 626432,
+      "step": 600
+    },
+    {
+      "epoch": 8.86,
+      "eval_BLEU": 0.037942198780893006,
+      "eval_chrF": 6.481420859495303,
+      "eval_loss": 4.537798881530762,
+      "eval_runtime": 231.2102,
+      "eval_samples_per_second": 2.686,
+      "eval_steps_per_second": 0.169,
+      "num_input_tokens_seen": 626432,
+      "step": 600
+    },
+    {
+      "epoch": 10.33,
+      "learning_rate": 0.00011363310286178552,
+      "loss": 3.9772,
+      "num_input_tokens_seen": 730720,
+      "step": 700
+    },
+    {
+      "epoch": 11.81,
+      "learning_rate": 0.00010626545204637216,
+      "loss": 3.8756,
+      "num_input_tokens_seen": 835024,
+      "step": 800
+    },
+    {
+      "epoch": 11.81,
+      "eval_BLEU": 0.05385339712030395,
+      "eval_chrF": 7.708999708039219,
+      "eval_loss": 4.538330078125,
+      "eval_runtime": 461.5535,
+      "eval_samples_per_second": 1.345,
+      "eval_steps_per_second": 0.084,
+      "num_input_tokens_seen": 835024,
+      "step": 800
+    },
+    {
+      "epoch": 13.28,
+      "learning_rate": 0.00010016708449412665,
+      "loss": 3.7721,
+      "num_input_tokens_seen": 939568,
+      "step": 900
+    },
+    {
+      "epoch": 14.76,
+      "learning_rate": 9.501095328293044e-05,
+      "loss": 3.7008,
+      "num_input_tokens_seen": 1043744,
+      "step": 1000
+    },
+    {
+      "epoch": 14.76,
+      "eval_BLEU": 0.13962179914081396,
+      "eval_chrF": 10.05200683266214,
+      "eval_loss": 4.607307434082031,
+      "eval_runtime": 194.0211,
+      "eval_samples_per_second": 3.201,
+      "eval_steps_per_second": 0.201,
+      "num_input_tokens_seen": 1043744,
+      "step": 1000
+    },
+    {
+      "epoch": 16.24,
+      "learning_rate": 9.057700179587525e-05,
+      "loss": 3.6312,
+      "num_input_tokens_seen": 1147904,
+      "step": 1100
+    },
+    {
+      "epoch": 17.71,
+      "learning_rate": 8.6710996952412e-05,
+      "loss": 3.5641,
+      "num_input_tokens_seen": 1252592,
+      "step": 1200
+    },
+    {
+      "epoch": 17.71,
+      "eval_BLEU": 0.19091591099588276,
+      "eval_chrF": 11.82012670314314,
+      "eval_loss": 4.631111145019531,
+      "eval_runtime": 155.2689,
+      "eval_samples_per_second": 4.0,
+      "eval_steps_per_second": 0.251,
+      "num_input_tokens_seen": 1252592,
+      "step": 1200
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 2000,
+  "num_input_tokens_seen": 1252592,
+  "num_train_epochs": 30,
+  "save_steps": 200,
+  "total_flos": 7244297570746368.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
